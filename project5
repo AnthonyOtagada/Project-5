@@ -1,0 +1,35 @@
+### PROJECT 5: Client/Server Architecture Using A MySQL Relational Database Management System
+## Create and configure two Linux-based virtual servers
+## Server A name 
+ `mysql server`
+
+![1](./images/1.png)
+## Server B name 
+ `mysql client`
+
+![client](./Images/1.png)
+
+## Use mysql server's local IP address to connect from mysql client. MySQL server uses TCP port 3306 by default.
+
+![2](./images/2.png)
+
+## configure MySQL server to allow connections from remote hosts.
+`sudo vi /etc/mysql/mysql.conf.d/mysqld.cnf`
+
+![3](./images/3.png)
+
+## From mysql client Linux Server connect remotely to mysql server Database Engine without using SSH. You must use the mysql utility to perform this action.
+
+## Check that you have successfully connected to a remote MySQL server and can perform SQL queries:
+
+`Show databases;`
+
+![6](./images/6.png)
+
+## Connecting from client system
+
+![7](./images/7.png)
+
+![8](./images/8.png)
+
+![9](./images/9.png)
